@@ -1,0 +1,55 @@
+.wrapper {
+  background: url('../img/bg.jpg') center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.box {
+  margin-top:15%;
+}
+
+.full-name {
+  color:#ecf0f1;
+  display:inline-block;
+  font-family:'Helvetica Neue';
+  font-size: 29px;
+  font-weight: 500;
+  padding-bottom: 4px;
+  border-bottom: 1px dotted #DDDDDD;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+   font-size:25px;
+   color:#ecf0f1;
+   padding-left:15px;
+}
+
+.social-icon:hover{
+  color:#16a085;
+}
+
+.social-box{
+  display: inline-block;
+  margin-left:-12px;
+  margin-top:-10px;
+}
+
+.pic {
+  max-width:100px;
+  max-height:100px;
+  width: auto;
+  height: auto;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  display:block;
+  float:right;
+}
+.pic:hover {
+  background-image: url('img/pic-hi.jpg');
+}
+
+.align-center{
+  text-align:right;
+}
