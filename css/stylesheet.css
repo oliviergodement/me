@@ -6,7 +6,8 @@
 }
 
 .box {
-  margin-top:15%;
+  margin-top:8%;
+  display: none;
 }
 
 .full-name {
