@@ -40,9 +40,18 @@
     <script>
     $(document).foundation();
     $(document).ready(function(){
-      $(".box").fadeIn( "slow" );
-      $("#before").animate({height: "50px"}, 700);
+      $(".box").fadeIn( 900 );
+      $("#before").animate({height: "50px"}, 700, function(){
+        $(".social-icon:hidden:first").fadeIn(450, function(){
+          $(".social-icon:hidden:first").fadeIn(450, function(){
+            $(".social-icon:hidden:first").fadeIn(450, function(){
+              $(".social-icon:hidden:first").fadeIn(450)
+            });
+          });
+        });
+      });
     });
+
     </script>
   </body>
 </html>

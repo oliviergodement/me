@@ -21,10 +21,11 @@
   margin-bottom: 20px;
 }
 
-.social-icon {
+.box .social-icon {
    font-size:25px;
    color:#ecf0f1;
    padding-left:15px;
+   display:none;
 }
 
 .social-icon:hover{
